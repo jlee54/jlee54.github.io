@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="google" content="notranslate" />
+
     <!-- Metadata (autofilled by "Save to HTML") -->
     <meta name="author" content="Jonathan Lee" />
     <meta name="subject" content="Resume" />
@@ -15,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
     <!-- Custom Styles -->
-    <link rel="stylesheet" type="text/css" href="./paper.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="./paper.css" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <link rel="stylesheet" type="text/css" href="./typography.css" />
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -60,11 +61,13 @@
                 <li>GPA: 3.49</li>
                 <li>Dean's List: 6 semesters</li>
               </ul>
-              <span>Association of Computing Machinery</span>
-              <ul>
-                <li>Member: Aug. 2015 - Dec. 2016</li>
-                <li>Treasurer: Jan. 2016 - May 2016</li>
-              </ul>
+              <slot class="hidden">
+                <span>Association of Computing Machinery</span>
+                <ul>
+                  <li>Member: Aug. 2015 - Dec. 2016</li>
+                  <li>Treasurer: Jan. 2016 - May 2016</li>
+                </ul>
+              </slot>
             </div>
           </div>
           <div id="skills">
@@ -146,22 +149,22 @@
               <h6 class="position-title">Software Engineer</h6>
               <p><b>DRT LLC</b>, Omaha, NE / May 2017 - Present</p>
               <ul>
-                <li>Created a REST API component to be used between internal applications and external clients. Features JWTs, specific HTTP response codes, and versioning.</li>
-                <li>Wrote driver trip processing queue application to allow dispatchers and temp employees to easily manage on-going trip information. Developed to handle multiple concurrent users and be performant enough to be able to process thousands of driver trips.</li>
-                <li>Developed integration with truck on-board computers. Synced trip information between dispatching software and truck computers. Developed application to facilate processing of driver violations.</li>
-                <li>Restuctured 50+ applications to enable version control, environmental/secret variables, and shared code. Git Subtree methodology was employed to help share code between applications.</li>
-                <li>Responsible for co-interviewing developer candidates. Developing interview materials. Being a part of recruitment events.</li>
-                <li>Wrote documentation for new hire onboarding process, newly written apps, coding tips/standards, and niche development processes.</li>
-                <li>Reviewed code from team members. Properly tested code and educated on best practices to utilize.</li>
+                <li>Created a <b>REST API</b> component to be used between internal applications and external clients. Features <b>JWTs, specific HTTP response codes, and versioning</b>.</li>
+                <li>Wrote <b>driver trip processing queue application</b> to allow dispatchers and temp employees to easily manage on-going trip information. Allowed simplified handiling of 20,000+ trips last holiday season.</li>
+                <li>Developed <b>integration with truck on-board computers</b>. Synced trip information between dispatching software and truck computers. Formatted information for user processing.</li>
+                <li>Restuctured <b>50+ applications</b> to enable <b>version control</b>, environmental variables, and shared code.</li>
+                <li>Responsible for <b>co-interviewing</b> developer candidates. Developing interview materials. Being a part of recruitment events.</li>
+                <li>Wrote <b>documentation</b> for new hire onboarding process, newly written apps, coding tips/standards, and other development processes.</li>
+                <li><b>Reviewed code</b> from team members. Properly tested code and educated on best practices to utilize.</li>
               </ul>
             </div>
             <div class="sub-topic">
               <h6 class="position-title">Software Engineering Intern</h6>
               <p><b>Firespring</b>, Lincoln, NE / May 2016 - May 2017</p>
               <ul>
-                <li>Created a photo gallery component which featured a dynamic layout and user control.</li>
-                <li>Implemented Docker container health checks. Would inform team members the working condition of their dev environent containers. </li>
-                <li>Reduced API testing completion time by 10 minutes. At key points while testing, flushing our Elastic Cache led to improved performance.</li>
+                <li>Created a <b>photo gallery component</b> which featured a dynamic layout and user control.</li>
+                <li>Implemented <b>Docker container health checks</b>. Would inform team members the working condition of their dev environent containers. </li>
+                <li>Reduced <b>API testing</b> completion time by 10 minutes.</li>
               </ul>
             </div>
           </div>

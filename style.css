@@ -6,6 +6,8 @@
     box-sizing: border-box;
     transform-origin: 0 0 0;
 }
+@media screen {
+}
 
 body {
     font-size: 1rem;
@@ -18,6 +20,11 @@ body {
     text-rendering: optimizeLegibility;
     text-decoration-skip: ink;
     hyphens: auto;
+    background-color: rgb(83, 86, 89);
+}
+
+.hidden {
+  display: none;
 }
 
 ul {
@@ -163,6 +170,14 @@ li:before {
   font-weight: bold;
 }
 
-#proExp li{
-  font-size: 14px;
+#proExp li {
+  font-size: .85rem;
+}
+
+#mainContent .sub-topic + .sub-topic{
+  margin-top: 3rem;
+}
+
+#mainContent .header-accent + h5 {
+  width: calc(100% - 6rem);
 }
