@@ -54,7 +54,7 @@ li:before {
 
 #resume .header-accent {
   width: 65px;
-  height: .15rem;
+  height: .14rem;
   background: #d9b289;
   position: absolute;
   right: 0;
@@ -161,7 +161,6 @@ li:before {
   right: unset;
   margin-top: 13px;
   top: 0;
-  height: 0.2rem;
 }
 
 #proExp {
