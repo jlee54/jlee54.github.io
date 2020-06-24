@@ -6,8 +6,6 @@
     box-sizing: border-box;
     transform-origin: 0 0 0;
 }
-@media screen {
-}
 
 body {
     font-size: 1rem;
@@ -165,12 +163,13 @@ li:before {
 
 #proExp {
   position: absolute;
+  margin-top: 0.5rem;
 }
 
-/* #proExp h5:first-of-type {
-  position: relative;
-  left: 8rem;
-} */
+#proExp ul {
+  padding-left: 2%;
+  line-height: 1.75rem;
+}
 
 .position-title {
   font-weight: bold;
@@ -178,15 +177,12 @@ li:before {
 
 #proExp li {
   font-size: .85rem;
+  margin-bottom: 0.25rem;
 }
 
 #mainContent .sub-topic + .sub-topic{
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 }
-
-/* #mainContent .header-accent + h5 {
-  width: calc(100% - 6rem);
-} */
 
 #mainContent .header-accent + h5 {
   text-align: center;
