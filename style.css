@@ -7,8 +7,12 @@
     transform-origin: 0 0 0;
 }
 
+html {
+  font-size: 15px;
+}
+
 body {
-    font-size: 1rem;
+    font-size: 14px;
     margin: 0 auto;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -46,12 +50,12 @@ li:before {
 
 #resume {
   background: white;
-  width: 60rem;
+  width: 56rem;
   display: flex;
 }
 
 #resume .header-accent {
-  width: 65px;
+  width: 55px;
   height: .14rem;
   background: #e4cca1;
   position: absolute;
@@ -67,7 +71,7 @@ li:before {
 
 #resume .sub-topic {
   margin-left: 1rem;
-  margin-top: 1rem;
+  margin-top: .75rem;
 }
 
 #resume h5, #resume h6 {
@@ -79,6 +83,7 @@ li:before {
   min-width: 36%;
   background-color: #f5f5f5;
   border-right: .2rem solid #e4cca1;
+  padding: 2rem 0rem 2rem 1.5rem;
 }
 
 #resume aside div {
@@ -86,7 +91,7 @@ li:before {
 }
 
 #resume aside > div {
-  padding: .75rem 0 .75rem 1rem;
+  padding: .5rem 0 .75rem 1rem;
 }
 
 #resume aside .sub-topic span {
@@ -109,6 +114,10 @@ li:before {
 
 #contact li:before {
   content: none;
+}
+
+#technologies h5 {
+  margin-bottom: 1rem;
 }
 
 #technologies ul {
@@ -146,6 +155,7 @@ li:before {
   width: 100%;
   margin: 1rem;
   position: relative;
+  padding: 2rem 1.5rem 2rem 0rem;
 }
 
 #namePlate {
@@ -164,11 +174,16 @@ li:before {
 #proExp {
   position: absolute;
   margin-top: 0.5rem;
+  padding-right: 1.5rem;
+}
+
+#proExp > h5 {
+  margin-bottom: .75rem;
 }
 
 #proExp ul {
   padding-left: 2%;
-  line-height: 1.75rem;
+  line-height: 1.25rem;
 }
 
 .position-title {
@@ -177,11 +192,11 @@ li:before {
 
 #proExp li {
   font-size: .85rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 #mainContent .sub-topic + .sub-topic{
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
 #mainContent .header-accent + h5 {
