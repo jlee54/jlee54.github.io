@@ -13,3 +13,11 @@ html {
   margin-bottom: 0 !important;
   height: 100vh;
 }
+
+#resume aside {
+  background-color: white !important;
+}
+
+#contact a {
+  color: black;
+}
