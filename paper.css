@@ -22,3 +22,7 @@ a {
   color: black;
   text-decoration: none;
 }
+
+#projects {
+  margin-top: 48rem !important;
+}
