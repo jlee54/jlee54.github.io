@@ -18,6 +18,7 @@ html {
   background-color: white !important;
 }
 
-#contact a {
+a {
   color: black;
+  text-decoration: none;
 }

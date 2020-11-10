@@ -130,6 +130,7 @@ li:before {
   padding: .15rem 0;
   display: inline-block;
   border: .01rem solid #e4cca1;
+  font-size: .85rem;
 }
 
 #technologies .box-style span {
@@ -208,6 +209,32 @@ li:before {
   margin-bottom: 1rem;
 }
 
-#mainContent .header-accent + h5 {
-  text-align: center;
+
+
+#projects {
+  position: absolute;
+  margin-top: 48rem;
+  padding-right: 1.5rem;
+}
+
+#mainContent #projects .header-accent + h5 {
+  text-align: inherit;
+}
+
+#mainContent div > h5 {
+  margin-left: 7rem;
+}
+
+#projects > h5 {
+  margin-bottom: .75rem;
+}
+
+#projects ul {
+  padding-left: 2%;
+  line-height: 1.25rem;
+}
+
+#projects li {
+  font-size: .85rem;
+  margin-bottom: 0.5rem;
 }
