@@ -1,0 +1,9 @@
+
+Improvements:
+Laptop display (flex on verticality)
+Remove absolute positioning
+Spell check linter
+
+Maybe:
+Printing paper options
+Better background
