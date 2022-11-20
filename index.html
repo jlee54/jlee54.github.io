@@ -33,8 +33,8 @@
             <ul>
               <li>
                 <span class="fa fa-map-marker"></span>
-                <a href="https://goo.gl/maps/5q9VEfKKLbpJwQyQA" rel="noreferrer" target="_blank">
-                  Omaha, Nebraska, 68132
+                <a href="https://goo.gl/maps/7sD9B9MTrnJcFnVc6" rel="noreferrer" target="_blank">
+                  Lincoln, Nebraska, 68505
                 </a>
               </li>
               <li>
@@ -102,42 +102,46 @@
               </li>
               <li>
                 <div class="box-style">
+                  <span>Ruby</span>
+                  <span>RoR</span>
+                  <span>Rspec</span>
+                </div>
+              </li> 
+              <li>
+                <div class="box-style">
                   <span>PHP</span>
                   <span>PHPUnit</span>
                 </div>
               </li>
               <li>
                 <div class="box-style">
-                  <span>Node.js</span>
-                </div>
-              </li>
-              <li>
-                <div class="box-style">
-                  <span>MSSQL</span>
+                  <span>SQL Server</span>
                   <span>MySQL</span>
+                  <span>Postgres</span>
                 </div>
               </li>
               <li>
                 <div class="box-style">
-                  <span>CouchDB</span>
                   <span>Redis</span>
+                  <span>CouchDB</span>
+                </div>
+              </li>
+              <li>
+                <div class="box-style">
+                  <span>AWS</span>
+                  <span>IIS</span>
                 </div>
               </li>
               <li>
                 <div class="box-style">
                   <span>Docker</span>
-                  <span>IIS</span>
+                  <span>Github Actions</span>
                 </div>
               </li>
               <li>
                 <div class="box-style">
                   <span>REST</span>
                   <span>SOAP</span>
-                </div>
-              </li>
-              <li>
-                <div class="box-style">
-                  <span>Wordpress</span>
                 </div>
               </li>
             </ul>
@@ -149,27 +153,42 @@
             <span class="header-accent"></span>
             <h5 class=>Professional Experience</h5>
             <div class="sub-topic">
-              <h6 class="position-title">DRT LLC - Omaha, NE</h6>
-              <p><b>Senior Software Developer</b>, August 2020 - Present</p>
-              <p><b>Software Developer</b>, May 2017 - August 2020</p>
+              <h6 class="position-title">Nelnet Payment Services - Lincoln, NE</h6>
+              <p><b>Software Engineer</b>, April 2022 - Present</p>
+              <p class="position-technologies">Ruby on Rails, Rspec, Postgres, Vue.js, Docker, AWS, Splunk, & Github Actions</p>
               <ul>
-                <li>Created a <b> PHP REST API</b> to be used between internal applications and external clients. Utilized <b>JWTs, HTTP response codes, and versioning</b>.</li>
-                <li>Wrote a <b>Vue.js, PHP, & MSSQL</b> driver trip processing application to allow handling of 20,000 trips the 2019 holiday season.</li>
-                <li>Synced trip information via <b>SOAP</b> between in-house dispatching software and truck on-board computers.</li>
-                <li>Utilized <b>SFTP</b> syncing of employee information to our 401k provider.</li>
-                <li>Restructured <b>50+ applications</b> to enable <b>version control</b>, environmental variables, and shared code.</li>
-                <li>Created <b>Bootstrap</b> styled CRUD based apps. Typically involving an interactable table, filtering, permissions, and more.</li>
-                <li>Wrote <b>documentation</b> for new hire onboarding, newly written applications, coding standards, and other development processes.</li>
-                <li>Performed <b>team leadership</b> responsibilities. Including reviewing code, code deploying, developer recruitment/interviewing, and educating team members on best practices.</li>
+                <li>Created a backend for our <b>Reconciliation</b> reporting, combining multiple data sources and the use of Postgres <b>materialized views</b> for caching.</li>
+                <li>Introduced <b>Code Coverage</b> checks within CI/CD workflow, utilizing Rspec, Simplecov, & Jest within Github Actions.</li>
+                <li>Enabled tracking of <b>ACH Refund Returns</b> within the Transaction service, applying their existence as a cancellation to regular refunds.</li>
+                <li>Reworked <b>Enrollment</b> process from vanilla JS to Vue.js. Increased functionality to include additional API available functionality.</li>
+                <!-- <li>Implemented backend caching within Dashboard Metrics and Batch Report processes. Utilized materialized views to replace Ruby code.</li> -->
+                <!-- <li>Lead MFA integration team in integrating MFA into 4 portal services.</li> -->
+              </ul>
+            </div>
+            <div class="sub-topic">
+              <h6 class="position-title">DRT LLC - Omaha, NE</h6>
+              <p><b>Senior Software Developer</b>, August 2020 - April 2022</p>
+              <p><b>Software Developer</b>, May 2017 - August 2020</p>
+              <p class="position-technologies">PHP, PHPUnit, SQL Server, Vue.js, & Bootstrap</p>
+              <ul>
+                <li>Created a <b> PHP REST API</b> for use between internal applications and external clients, utilizing <b>JWTs, HTTP response codes, and versioning</b>.</li>
+                <li>Wrote a <b>trip processing</b> application for easier event inputting and tracking, enabling better multi-user workflow.</li>
+                <li>Utilized <b>EDI protocol</b> to communicate and sync trip information between USPS, other freight customers, and our in-house dispatching software.</li>
+                <!-- <li>Wrote a driver trip processing application to allow handling of 20,000 trips the 2019 holiday season.</li> -->
+                <!-- <li>Synced trip information via <b>SOAP</b> between in-house dispatching software and truck on-board computers.</li> -->
+                <!-- <li>Utilized <b>SFTP</b> syncing of employee information to our 401k provider.</li> -->
+                <!-- <li>Restructured <b>50+ applications</b> to enable <b>version control</b>, environmental variables, and shared code.</li> -->
+                <li>Performed <b>team leadership</b> responsibilities. Including reviewing code, code deploying, developer recruitment/interviewing, and documenting best practices.</li>
               </ul>
             </div>
             <div class="sub-topic">
               <h6 class="position-title">Firespring - Lincoln, NE</h6>
               <p><b>Software Engineering Intern</b>, May 2016 - May 2017</p>
+              <p class="position-technologies">Ruby, Sinatra, Rspec, Docker, & Jenkins</p>
               <ul>
-                <li>Created a reusuable <b>photo gallery component</b> which featured a dynamic layout and user CRUD ability.</li>
+                <!-- <li>Created a reusuable <b>photo gallery component</b> which featured a dynamic layout and user CRUD ability.</li>
                 <li>Implemented <b>Docker container health checks</b>. Informed team members the condition of their development containers. </li>
-                <li>Reduced <b>API testing</b> completion time from 60 to 50 minutes.</li>
+                <li>Reduced <b>API testing</b> completion time from 60 to 50 minutes.</li> -->
               </ul>
             </div>
             <!-- <div class="sub-topic">
@@ -189,8 +208,8 @@
             <div class="sub-topic">
               <ul>
                 <li><b>Senior Design - UAV Interface</b>: An <b>Ember.js</b> and <b>Ruby on Rails</b> map based project for UAV drone piloting visualization. Allowed for real time visualization and replays of flights.</li>
-                <li><b><a href="https://jlee54.github.io">jlee54.github.io</a></b>: My resume constructed with HTML/CSS.</li>
-                <li><b><a href="https://cclomaha.com">cclomaha.com</a></b>: A <b>Wordpress</b> project for my local Citizens' Climate Lobby chapter, a volunteer organization I am also a stategic leader on.</li>
+                <!-- <li><b><a href="https://jlee54.github.io">jlee54.github.io</a></b>: My resume constructed with HTML/CSS.</li> -->
+                <li><b><a href="https://cclomaha.com">cclomaha.com</a></b>: A <b>Wordpress</b> project for Omaha's Citizens' Climate Lobby chapter.</li>
               </ul>
             </div>
           </div>
