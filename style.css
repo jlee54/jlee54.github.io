@@ -154,12 +154,12 @@ a {
   width: 100%;
   margin: 1rem;
   position: relative;
-  padding: 2rem 1.5rem 2rem 0rem;
+  padding: 1rem 1.5rem 0rem 0rem;
 }
 
 #namePlate {
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
   border-bottom: .2rem solid #e4cca1;
   position: relative;
 }
